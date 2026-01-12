@@ -1,6 +1,6 @@
 .container {
 width: 1000px;
-height: 800px;
+height: 1024px;
 border: 2px solid black;
 background-color: rgba(22, 113, 231, 0.753);
 z-index: -2;
@@ -8,7 +8,7 @@ z-index: -2;
 
 .snow {
     width: 1000px;
-    height: 276px;
+    height: 500px;
     position: relative;
     background-color: rgb(211, 211, 211);
     top: -276px;
@@ -25,9 +25,9 @@ z-index: -2;
     position: relative;
     left: 420px;
     top: 500px;
-    z-index: 2;
+    z-index: 4;
     border-color: rgb(255, 255, 255);
-
+    box-shadow: 40px 30px 15px 5px;
 }
 
 .snowball2 {
@@ -38,8 +38,9 @@ z-index: -2;
     position: relative;
     left: 460px;
     top: 23px;
-    z-index: 2;
+    z-index: 3;
     border-color: rgb(255, 255, 255);
+    box-shadow: 40px 30px 15px 5px;
 }
 
 .snowball3 {
@@ -50,7 +51,8 @@ z-index: -2;
     position: relative;
     top: -420px;
     left: 510px;
-    z-index: 1;
+    z-index: 2;
+    box-shadow: 40px 30px 15px 5px;
 }
 
 .coalbuttons {
@@ -61,7 +63,7 @@ z-index: -2;
     position: absolute;
     left: 136px;
     top: 220px;
-    z-index: 3;
+    z-index: 5;
 }
 
 .coalbuttons2 {
@@ -72,6 +74,7 @@ z-index: -2;
     position: absolute;
     left: 136px;
     top: 140px;
+    z-index: 5;
 }
 
 .coalbuttons3 {
@@ -82,6 +85,7 @@ z-index: -2;
     position: absolute;
     left: 136px;
     top: 60px;
+    z-index: 5;
 }
 
 .carrotnose {
@@ -230,6 +234,69 @@ z-index: -2;
     border-radius: 50px;
     left: -99px;
 }
-.lmittentthumb{
-    
+
+.rmitten {
+    width: 20px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50px;
+    position: relative;
+    left: 800px;
+    top: -1000px;
+    z-index: 5;
+    rotate: -40deg;
+}
+
+.rmittentop {
+    width: 120px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50px;
+}
+
+.tophat {
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: -110px;
+    left: 25px;
+}
+.tophatr {
+    width: 150px;
+    height: 25px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 100px;
+}
+
+.tophatb {
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    left: -20px;
+}
+
+.scarf {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    z-index: 1;
+    border-radius: 100px;
+    position: relative;
+    top: -1100px;
+    left: 460px
+}
+
+.scarf2 {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    z-index: 3;
+    border-radius: 100px;
+    position: relative;
+    top: -1170px;
+    left: 460px;
 }
