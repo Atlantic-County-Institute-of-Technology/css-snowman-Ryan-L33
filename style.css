@@ -1,12 +1,14 @@
 .container {
-width: 1000px;
-height: 1024px;
-border: 2px solid black;
-background-color: rgba(22, 113, 231, 0.753);
-z-index: -2;
+/* this is the container where everything will go */
+    width: 1000px;
+    height: 1024px;
+    border: 2px solid black;
+    background-color: rgba(22, 113, 231, 0.753);
+    z-index: -2;
 }
 
 .snow {
+/* this is essentailly our earth its the base were everything sits if its too high or too low this will tell us */
     width: 1000px;
     height: 500px;
     position: relative;
@@ -44,6 +46,7 @@ z-index: -2;
 }
 
 .snowball3 {
+/* our snow man base all 3 snowballs are the body of the snowman its essentially our canvas */
     width: 200px;
     height: 200px; 
     background-color: snow;
@@ -52,7 +55,6 @@ z-index: -2;
     top: -420px;
     left: 510px;
     z-index: 2;
-    box-shadow: 40px 30px 15px 5px;
 }
 
 .coalbuttons {
@@ -63,7 +65,7 @@ z-index: -2;
     position: absolute;
     left: 136px;
     top: 220px;
-    z-index: 5;
+    z-index: 6;
 }
 
 .coalbuttons2 {
@@ -74,10 +76,11 @@ z-index: -2;
     position: absolute;
     left: 136px;
     top: 140px;
-    z-index: 5;
+    z-index: 6;
 }
 
 .coalbuttons3 {
+/* whats a snowman without buttons sadly these will get covered up by css elements due to z-index */
     width: 25px;
     height: 25px;
     background-color: black;
@@ -85,7 +88,7 @@ z-index: -2;
     position: absolute;
     left: 136px;
     top: 60px;
-    z-index: 5;
+    z-index: 7;
 }
 
 .carrotnose {
@@ -179,6 +182,7 @@ z-index: -2;
     top: 115px;
 }
 .smile7 {
+    /* the face the eyes the smile the noes everything now in index.html everything is in a div tag yet we dont not have to go in order when creating items for css a scarf could be the first div tag I make and yet I could make it last and it would still work as intended */
     width: 10px;
     height: 10px;
     background-color: black;
@@ -195,7 +199,7 @@ z-index: -2;
     position: absolute;
     top: 400px;
     left: 700px;
-    z-index: 4;
+    z-index: 3;
     rotate: -40deg;
     scale: 0.95;
     translate: -20px -20px;
@@ -208,7 +212,7 @@ z-index: -2;
     position: absolute;
     top: 400px;
     left: 380px;
-    z-index: 4;
+    z-index: 3;
     rotate: 40deg;
     scale: 0.95;
     translate: -20px -20px;
@@ -235,6 +239,17 @@ z-index: -2;
     left: -99px;
 }
 
+.lmittenthumb{
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+    position: relative;
+    left: -50px;
+    top: -120px;
+    rotate: 40deg;
+}
+
 .rmitten {
     width: 20px;
     height: 100px;
@@ -252,6 +267,16 @@ z-index: -2;
     height: 100px;
     background-color: blue;
     border-radius: 50px;
+}
+
+.rmittenthumb{
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+    rotate: -40deg;
+    position: relative;
+    top: -120px;
 }
 
 .tophat {
@@ -280,7 +305,7 @@ z-index: -2;
 }
 
 .scarf {
-    width: 100px;
+    width: 300px;
     height: 100px;
     background-color: red;
     z-index: 1;
@@ -294,9 +319,67 @@ z-index: -2;
     width: 300px;
     height: 100px;
     background-color: red;
-    z-index: 3;
+    z-index: 4;
     border-radius: 100px;
     position: relative;
     top: -1170px;
     left: 460px;
 }
+
+.scarfdangle {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    left: 170px;
+    top: 30px;
+    z-index: 5;
+    rotate: -40deg;
+}
+
+.rec {
+    width: 15px;
+    height: 25px;
+    background-color: red;
+    position: relative;
+    top: 190px;  
+}
+
+.rec2 {
+    width: 15px;
+    height: 25px;
+    background-color: red;
+    position: relative;
+    left: 28px;
+    top: 165px;
+}
+
+.rec3 {
+    width: 15px;
+    height: 25px;
+    background-color: red;
+    position: relative;
+    left: 56px;
+    top: 140px;
+}
+
+.rec4 {
+    width: 15px;
+    height: 25px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    left: 85px;
+    top: 115px;
+}
+
+.snowyhill{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(75, 48, 73);
+    border-radius: 50px;
+    position: relative;
+    top: -1200px;
+    rotate: -45deg;
+    left: 100px;
+}
+
